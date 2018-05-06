@@ -15,9 +15,9 @@ export default {
   'UNWATCH': 'Ontvolgen',
   'NOTES': 'Opmerkingen',
   'OK': 'Oké',
-  'FOR': 'For', // check
+  'FOR': 'Voor',
   'CLOSE': 'Sluiten',
-  'BASE': 'Base',// check
+  'BASE': 'Standaard',
   'TRADE': 'Handelen',
   'BUY': 'Kopen',
   'SELL': 'Verkopen',
@@ -47,7 +47,7 @@ export default {
   'MARKET': 'Markt',
   'LIMIT': 'Limiet',
   'STATUS': 'Status',
-  'FILLED': 'Filled', // check
+  'FILLED': 'Uitgevoerd',
   'WRAP': 'Wrappen',
   'UNWRAP': 'Ont-wrappen',
   'SEND': 'Versturen',
@@ -60,11 +60,11 @@ export default {
   'SEARCH': 'Zoeken',
   'REMOVE': 'Verwijderen',
   'TOKEN': 'Token',
-  'CANDLES': 'Candles', // check
+  'CANDLES': 'Candles',
   'DEPTH': 'Marktdiepte',
   'ORDERBOOK': 'Orderboek',
   'CONNECTED': 'verbonden',
-  'DISCONNECT': 'verbinding verbrekend',
+  'DISCONNECT': 'verbinding verbreken',
   'LOCKED': 'Vergendelt',
   'LOADING': 'laden...',
   
@@ -109,7 +109,7 @@ export default {
   'VIEW_GAS_SETTINGS': 'Bekijk aanbevolen gas-instellingen.',
 
   // ICO Modal General
-  'PRE_TRADE_TOKEN': 'FundRequest', // check
+  'PRE_TRADE_TOKEN': 'FundRequest',
   'TRADING_WILL_BE_ENABLED': 'handelen wordt geactiveerd zodra de token beschikbaar is gemaakt door het team',
   'PRE_TRADE_TOKEN_TRADING_AVAILABLE': 'Handelen is nog niet beschikbaar',
   'PRE_TRADE_TOKEN_PLACE_ORDERS_EARLY': 'Je kunt koop/verkoop limiet orders plaatsen voordat de token beschikbaar is.',
@@ -126,7 +126,7 @@ export default {
 
   // Fill Order General
   'FILL_ORDER': 'Order vullen',
-  'SUM_IN': 'Sum in', // check
+  'SUM_IN': 'Sum in', // Unsure about the meaning here
 
   // Notification General
   'ORDER_PENDING': 'Order is in behandeling!',
@@ -140,7 +140,7 @@ export default {
   // Order Handler General
   'ORDER_DETAILS': 'Order details',
   'LAST_TRADE_PRICE': 'LAATSTE PRIJS',
-  'CLEAR_SELECTED_ORDER': 'Clear Selected Order', // check
+  'CLEAR_SELECTED_ORDER': 'Verberg geselecteerde order', // Assuming with clear hide is meant. If it means fill order: "Vul geselecteerde order"
   'MARKET_ORDER': 'Markt order',
   'LIMIT_ORDER': 'Limiet order',
 
@@ -291,8 +291,8 @@ export default {
   'INSUFFICIENT_BALANCE_FOR_TRANSFER': 'Onvoldoende tegoed voor overdracht.',
   'INSUFFICIENT_ETH_BALANCE_FOR_DEPOSIT': 'Je hebt niet voldoende ETH om te wrappen.',
   'INSUFFICIENT_WETH_BALANCE_FOR_WITHDRAWAL': 'Je hebt niet voldoende W-ETH om te ont-wrappen.',
-  'INVALID_JUMP': 'An invalid jump error has occurred.', // check
-  'INVALID_SIGNATURE': 'De handtekening was niet geldig.',
+  'INVALID_JUMP': 'Ongeldige jump error.',
+  'INVALID_SIGNATURE': 'De hash-handtekening was niet geldig.',
   'OUT_OF_GAS': 'Sorry, de transactie had niet voldoende gas.',
   'UNHANDLED_ERROR_HEADER': 'Onbekende foutmelding',
   'UNHANDLED_ERROR': 'Er vond een onbekende foutmelding plaats.',
@@ -344,42 +344,42 @@ export default {
   'REFERENCE_CURRENCY_TOOLTIP': 'Kies een valuate die gebruikt kan worden<br> als prijs referentie op de app.',
   
   // Wallet connect
-  'WALLET_CONNECTION_MOVED' : 'Looking for something? The wallet connection has moved into the navigation bar.',
-  'NEED_HELP': 'Need Help?',
-  'LOGIN_TO_METAMASK': 'Login to MetaMask',
-  'NO_METAMASK_INSTALLED': 'No MetaMask Installed',
-  'PLUGIN_ENTER_PIN': 'Plug in & enter pin',
-  'INSTALL_METAMASK': 'Install MetaMask',
-  'CHOOSE_ETHEREUM_APP': 'Choose Ethereum application and enable browser support.',
-  'CONNECT_A_WALLET': 'Connect a Wallet',
-  'NOT_CONNECTED': 'Not Connected',
-  'SELECT_WALLET': 'Select Wallet',
-  'CONNECTION_ISSUE': 'Connection Issue',
-  'WHY_WALLET': 'Why do I need a wallet?',
-  'METAMASK_HELP': 'MetaMask Help',
-  'LEDGER_HELP': 'Ledger Help',
-  'PURCHASE_LEDGER': 'Purchase a Ledger',
-  'RADAR_SUPPORT': 'Radar Support',
-  'CONNECT_TO_VIEW_TOKENS': 'Connect to view tokens',
+  'WALLET_CONNECTION_MOVED' : 'Zoek je iets? De wallet verbinding is verplaatst naar de navigatiebalk.',
+  'NEED_HELP': 'Hulp nodig?',
+  'LOGIN_TO_METAMASK': 'Inloggen met MetaMask',
+  'NO_METAMASK_INSTALLED': 'MetaMask niet geïnstalleerd',
+  'PLUGIN_ENTER_PIN': 'Sluit aan & voer pin in',
+  'INSTALL_METAMASK': 'MetaMask installeren',
+  'CHOOSE_ETHEREUM_APP': 'Open de Ethereum applicatie en activeer browser support.',
+  'CONNECT_A_WALLET': 'Maak verbinding met een wallet',
+  'NOT_CONNECTED': 'Niet verbonden',
+  'SELECT_WALLET': 'Kies wallet',
+  'CONNECTION_ISSUE': 'Verbindingsprobleem',
+  'WHY_WALLET': 'Waarom heb ik een wallet nodig?',
+  'METAMASK_HELP': 'MetaMask Hulp',
+  'LEDGER_HELP': 'Ledger Hulp',
+  'PURCHASE_LEDGER': 'Koop een Ledger',
+  'RADAR_SUPPORT': 'Radar helpdesk',
+  'CONNECT_TO_VIEW_TOKENS': 'Maak verbinding op tokens te bekijken',
   
   // Account
-  'OPEN_ORDERS': 'Open Orders',
-  'MARKETPLACE': 'Marketplace',
-  'FILTER_BY_TOKEN': 'Filter by Token',
-  'VIEW_ALL': 'View All',
+  'OPEN_ORDERS': 'Openstaande orders',
+  'MARKETPLACE': 'Marktplaats',
+  'FILTER_BY_TOKEN': 'Filter tokens',
+  'VIEW_ALL': 'Alles weergeven',
   'VIEW_ALL_DEPRECATED': 'View All Deprecated',
-  'UNWRAP_OLD_WETH': 'Unwrap Old WETH',
-  'PAIR': 'Pair',
+  'UNWRAP_OLD_WETH': 'Unwrap oude WETH tokens',
+  'PAIR': 'Paar',
   'TYPE': 'Type',
-  'ORDER_TOTAL': 'Order Total',
+  'ORDER_TOTAL': 'Order totaal',
   'DEPRECATED': 'Deprecated',
   'DOWNLOAD_CSV': 'Download CSV',
   
   // Misc.
-  'SUPPORT': 'Support',
-  'TOTAL_AVAILABLE': 'Total Available',
-  'TOTAL_VALUE': 'Total Value',
-  'CREATE_ORDER': 'Create Order',
-  'KEEP_ORDER_PUBLIC': 'Keep the order public'
+  'SUPPORT': 'Hulp',
+  'TOTAL_AVAILABLE': 'Totaal beschikbaar',
+  'TOTAL_VALUE': 'Totale waarde',
+  'CREATE_ORDER': 'Order aanmaken',
+  'KEEP_ORDER_PUBLIC': 'Houd order openbaar'
   
 };
